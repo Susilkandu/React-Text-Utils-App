@@ -1,0 +1,111 @@
+body {
+    --same: #002833;
+    --toolclr: #F44336;
+}
+
+.titleBar {
+    background-color: var(--same);
+    border: 2px solid white;
+    border-radius: 0.4rem;
+}
+
+.toolgrouper {
+    display: inline-flex;
+    width: 100vw;
+}
+
+.HomeDtlTag {
+    display: inline-flex;
+    height: fit-content;
+    border: 1px solid black;
+    background-color: var(--toolclr);
+    color: rgb(5, 5, 5);
+}
+
+.HomeDtlTag div {
+    border: 2px solid black;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.ftclr {
+    color: rgb(11, 169, 37);
+}
+
+.ftSizeHandler {
+    width: 4vw;
+}
+
+.setOutLineSize {
+    padding: 1px;
+    width:7vw;
+    font-size: smaller;
+}
+
+.setOutLineSize input {
+    width: 6vw;
+}
+
+.setOutLine b {
+    -webkit-text-stroke: 1px green;
+    font-size: larger;
+    color: black;
+}
+
+.second {
+    display: inline-flex;
+    height: 2.6rem;
+    border: 2px solid black;
+}
+
+.second button {
+    background-color: var(--toolclr);
+    color: rgb(17, 17, 17);
+    border-radius: 8px;
+}
+
+.HomeDtlTag div:hover,
+.second button:hover {
+    background-color: #001b19;
+    color: whitesmoke;
+}
+
+.informer {
+    width: 10rem;
+    color: rgba(245, 243, 243, 0.959);
+    padding: 5px;
+    background-color: cadetblue;
+    border-radius: 2rem;
+}
+
+#txtarea {
+    width: 100vw;
+}
+
+textarea {
+    display: block;
+    width: 97vw;
+    height: 80vh;
+    margin-left: 10px;
+    background-color: rgb(10, 40, 46);
+    color: rgb(247, 247, 247);
+    border: 4px solid white;
+    border-radius: 0.5rem;
+}
+.me-2
+{
+    width: 10vw;
+}
+.d-flex
+{
+    background-color: black;
+}
+.d-flex button
+{
+    background-color: rgb(98 220 237);    
+}
+.form-switch
+{
+    margin-left:3rem;
+}
